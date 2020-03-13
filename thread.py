@@ -1,14 +1,14 @@
 from threading import Thread
 import time
 
-def zaman():
+def Zaman():
     while 1:
         print(time.now())
         time.sleep(1)
 
-def polling():
+def Polling():
     bot.polling()
 
 
-Thread(target=zaman).start()
-Thread(target=polling).start()
+Thread(target=Zaman).start()
+Thread(target=Polling).start()
