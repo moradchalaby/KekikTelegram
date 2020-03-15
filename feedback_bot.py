@@ -1,6 +1,6 @@
 from telebot import TeleBot
 
-bot = TeleBot("834367279:AAG-h-6lJtj-LOixDp6UYgKIKQDg5wZOXXk")
+bot = TeleBot("")
 
 @bot.message_handler(['start'])
 def baslangic_mesaji(m):
